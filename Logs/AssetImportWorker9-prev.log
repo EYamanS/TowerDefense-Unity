@@ -1,0 +1,281 @@
+Using pre-set license
+Built from '2021.2/staging' branch; Version is '2021.2.10f1 (ee872746220e) revision 15632167'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'en' Physical Memory: 16125 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.2.10f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker9
+-projectPath
+D:/Projects/Unity/codeway-sivrikaya
+-logFile
+Logs/AssetImportWorker9.log
+-srvPort
+62267
+Successfully changed project path to: D:/Projects/Unity/codeway-sivrikaya
+D:/Projects/Unity/codeway-sivrikaya
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 103.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.10f1 (ee872746220e)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.2.10f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Projects/Unity/codeway-sivrikaya/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: AMD Radeon RX 6800 XT (ID=0x73bf)
+    Vendor:   ATI
+    VRAM:     16338 MB
+    Driver:   31.0.12029.7019
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.2.10f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.2.10f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.2.10f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56152
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.2.10f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006332 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 82.53 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.606 seconds
+Domain Reload Profiling:
+	ReloadAssembly (606ms)
+		BeginReloadAssembly (73ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (453ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (99ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (275ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (83ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (128ms)
+				ProcessInitializeOnLoadMethodAttributes (46ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.003022 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.920 seconds
+Domain Reload Profiling:
+	ReloadAssembly (920ms)
+		BeginReloadAssembly (99ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (17ms)
+		EndReloadAssembly (725ms)
+			LoadAssemblies (63ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (203ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (361ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (78ms)
+				ProcessInitializeOnLoadAttributes (226ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.37 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3164 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (57.8 KB). Loaded Objects now: 3630.
+Memory consumption went from 110.2 MB to 110.1 MB.
+Total: 1.924000 ms (FindLiveObjects: 0.167900 ms CreateObjectMapping: 0.076300 ms MarkObjects: 1.634700 ms  DeleteObjects: 0.044200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 14246.100934 seconds.
+  path: Assets/OutSide Assets/ground_shaker_asset/Terrains/GroundPalette.prefab
+  artifactKey: Guid(02fdb24c642febc4d9361437ce96313a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OutSide Assets/ground_shaker_asset/Terrains/GroundPalette.prefab using Guid(02fdb24c642febc4d9361437ce96313a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cf282fb11d7add621d44f0889f3afb2') in 0.148324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 59.090955 seconds.
+  path: Assets/OutSide Assets/ground_shaker_asset/Terrains/terrain_14.asset
+  artifactKey: Guid(80495e6d804a924488c011c29c3deb1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OutSide Assets/ground_shaker_asset/Terrains/terrain_14.asset using Guid(80495e6d804a924488c011c29c3deb1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31b78b2c524c606836e28c193025e83c') in 0.025867 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 354.503198 seconds.
+  path: Assets/OutSide Assets/ground_shaker_asset/Red
+  artifactKey: Guid(12b3352d7843768439ad5b70b5f0f732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OutSide Assets/ground_shaker_asset/Red using Guid(12b3352d7843768439ad5b70b5f0f732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d5ff046281c9bc2e78a93345888c7e6') in 0.004726 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.286100 seconds.
+  path: Assets/OutSide Assets/ground_shaker_asset/Red/Weapons
+  artifactKey: Guid(c9b463631f318b942a2cae13020e5393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OutSide Assets/ground_shaker_asset/Red/Weapons using Guid(c9b463631f318b942a2cae13020e5393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab6f5c95dea74129c1d98596420facbf') in 0.005815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.067836 seconds.
+  path: Assets/OutSide Assets/ground_shaker_asset/Red/Weapons/turret_01_mk1.gif
+  artifactKey: Guid(f9b5edb43630fce40af4fd899e158487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OutSide Assets/ground_shaker_asset/Red/Weapons/turret_01_mk1.gif using Guid(f9b5edb43630fce40af4fd899e158487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e748cc65a2d884a0010bd33f4d05c9fd') in 0.026418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/OutSide Assets/ground_shaker_asset/Red/Weapons/turret_02_mk2.gif
+  artifactKey: Guid(6d8683d64d9b60847910910a118dadbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OutSide Assets/ground_shaker_asset/Red/Weapons/turret_02_mk2.gif using Guid(6d8683d64d9b60847910910a118dadbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7230a9104e3e885bd856531b8f57388') in 0.010597 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/OutSide Assets/ground_shaker_asset/Red/Weapons/weapons.png
+  artifactKey: Guid(11e7386271a546c4b8bbf3bc73109f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OutSide Assets/ground_shaker_asset/Red/Weapons/weapons.png using Guid(11e7386271a546c4b8bbf3bc73109f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd908bd25752ac8b044d840ef4c0e643d') in 0.012296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/OutSide Assets/ground_shaker_asset/Red/Weapons/turret_02_mk1.gif
+  artifactKey: Guid(dc2d31c4a136c5e40a883d0cd8c9fa3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OutSide Assets/ground_shaker_asset/Red/Weapons/turret_02_mk1.gif using Guid(dc2d31c4a136c5e40a883d0cd8c9fa3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cab8279744ace8537b1ef6a4f9c9ee01') in 0.008993 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/OutSide Assets/ground_shaker_asset/Red/Weapons/turret_02_mk2.png
+  artifactKey: Guid(95b53da058e0ec9458ac5618772f7fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OutSide Assets/ground_shaker_asset/Red/Weapons/turret_02_mk2.png using Guid(95b53da058e0ec9458ac5618772f7fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94ce7edda77839c655778e9589b1e1cb') in 0.008616 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/OutSide Assets/ground_shaker_asset/Red/Weapons/turret_02_mk3.gif
+  artifactKey: Guid(be2af942f1e7b9c4cb0405a27b66f69a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OutSide Assets/ground_shaker_asset/Red/Weapons/turret_02_mk3.gif using Guid(be2af942f1e7b9c4cb0405a27b66f69a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b593840005875bb48b1119c195fc9e03') in 0.009236 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/OutSide Assets/ground_shaker_asset/Red/Weapons/turret_02_mk1.png
+  artifactKey: Guid(1bc6253b06473ed4e83730bc87ee634a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OutSide Assets/ground_shaker_asset/Red/Weapons/turret_02_mk1.png using Guid(1bc6253b06473ed4e83730bc87ee634a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f83bb5dd8266f961d90637358d36452') in 0.009774 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/OutSide Assets/ground_shaker_asset/Red/Weapons/turret_01_mk3.png
+  artifactKey: Guid(51487b9a3df9f744680491aa461fbb88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OutSide Assets/ground_shaker_asset/Red/Weapons/turret_01_mk3.png using Guid(51487b9a3df9f744680491aa461fbb88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '099e88c1ef389f1a381af807204002b6') in 0.011106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/OutSide Assets/ground_shaker_asset/Red/Weapons/turret_01_mk2.png
+  artifactKey: Guid(ea92d1d8a4a5bd441b2272256e630ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OutSide Assets/ground_shaker_asset/Red/Weapons/turret_01_mk2.png using Guid(ea92d1d8a4a5bd441b2272256e630ec4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a84dce32ca07d52a5fa1e3c180426c8') in 0.007958 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/OutSide Assets/ground_shaker_asset/Red/Weapons/turret_01_mk4.gif
+  artifactKey: Guid(cf12a1c239506dc47af262c8a7b6cd6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OutSide Assets/ground_shaker_asset/Red/Weapons/turret_01_mk4.gif using Guid(cf12a1c239506dc47af262c8a7b6cd6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19d5e07fe57eb3a5a32ef48f2dc4180d') in 0.008601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/OutSide Assets/ground_shaker_asset/Red/Weapons/turret_01_mk3.gif
+  artifactKey: Guid(ea230037766b59b48a22362815d32041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OutSide Assets/ground_shaker_asset/Red/Weapons/turret_01_mk3.gif using Guid(ea230037766b59b48a22362815d32041) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2c5586d0de8f7309e79acf7f4141a5c') in 0.008032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/OutSide Assets/ground_shaker_asset/Red/Weapons/turret_02_mk4.gif
+  artifactKey: Guid(555b0d2d743faa148ac5693978b6987b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OutSide Assets/ground_shaker_asset/Red/Weapons/turret_02_mk4.gif using Guid(555b0d2d743faa148ac5693978b6987b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2823580d7e927c95484a07e1dcfcb7c6') in 0.009199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.126971 seconds.
+  path: Assets/OutSide Assets/ground_shaker_asset/Red/Bodies
+  artifactKey: Guid(c8ab47787ada0c9428b062e145f2282b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OutSide Assets/ground_shaker_asset/Red/Bodies using Guid(c8ab47787ada0c9428b062e145f2282b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ca480b1108680c1f0f41cc7d9307075') in 0.001692 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.059767 seconds.
+  path: Assets/OutSide Assets/ground_shaker_asset/Red/Bodies/body_halftrack.gif
+  artifactKey: Guid(de18dd029b5c60342ba44c4f30886c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OutSide Assets/ground_shaker_asset/Red/Bodies/body_halftrack.gif using Guid(de18dd029b5c60342ba44c4f30886c89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3df0701fad6fc736c7a3cbc8607e343a') in 0.008800 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/OutSide Assets/ground_shaker_asset/Red/Bodies/body_tracks.png
+  artifactKey: Guid(47da5c9a310b97e49ab7dfdd3dc6b6d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OutSide Assets/ground_shaker_asset/Red/Bodies/body_tracks.png using Guid(47da5c9a310b97e49ab7dfdd3dc6b6d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0200cfba5fcdb60b1949f61f587fcfce') in 0.009518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/OutSide Assets/ground_shaker_asset/Red/Bodies/body_tracks.gif
+  artifactKey: Guid(e4accecb8df8d15498eb63155cc9eed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/OutSide Assets/ground_shaker_asset/Red/Bodies/body_tracks.gif using Guid(e4accecb8df8d15498eb63155cc9eed7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e97292b7d0b90387afdf7539c9b08e0d') in 0.006608 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
