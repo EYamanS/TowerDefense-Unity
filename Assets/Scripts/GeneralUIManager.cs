@@ -36,12 +36,14 @@ public class GeneralUIManager : MonoBehaviour
     {
         Events.EnemyKilled += OnEnemyKilled;
         Events.DifficultyIncrease += OnDifficultyIncreased;
+        Events.BoughtTurret += Save;
     }
 
     private void OnDisable()
     {
         Events.EnemyKilled -= OnEnemyKilled;
         Events.DifficultyIncrease -= OnDifficultyIncreased;
+        Events.BoughtTurret -= Save;
     }
 
     public void Save()
